@@ -1,7 +1,7 @@
 <?php
 class RemoteControlImpl implements RemoteControl
 {
-    public function tooglePower(Electronic $electronic) {
+    public function togglePower(Electronic $electronic) {
         if(!$electronic->isOn()) {
             $electronic->turnOn();
         } else {

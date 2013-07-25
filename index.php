@@ -10,8 +10,8 @@ $remote = new RemoteControlImpl();
 $television = new TelevisionImpl();
 $blurayPlayer = new BlurayPlayerImpl();
 
-$remote->tooglePower($television);
-$remote->tooglePower($blurayPlayer);
-$remote->tooglePower($blurayPlayer);
-$remote->tooglePower($television);
+$remote->togglePower($television);
+$remote->togglePower($blurayPlayer);
+$remote->togglePower($blurayPlayer);
+$remote->togglePower($television);
 
